@@ -1,0 +1,34 @@
+.cnt{
+    max-width: 124rem;
+    padding: 4rem 1rem;
+    margin: 0 auto;
+}
+.swiper_container{
+    width: 50% !important;
+    height: 450px;
+    padding: 20px 10px !important;
+    position: relative;
+    object-fit: contain;
+} 
+.swiper-slide{
+    width: 500px;
+    height: 280px;
+    position: relative;
+    border-radius: 30px;
+    /* background-color: blue; */
+} 
+@media (max-width: 500px){
+    .swiper_container{
+        height: 300px;
+    }
+    .swiper-slide{
+        width: 250px !important;
+        height: 300px !important;
+        border-radius: 30px !important;
+    }
+    .swiper-slide img{
+        width: 250px !important;
+        height: 300px !important;
+        border-radius: 30px !important;
+    }
+}
